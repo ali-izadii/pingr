@@ -2,7 +2,7 @@
 
 Build a small, dependable command-line tool for everyday network troubleshooting, implemented in Rust with no third-party crates. Start with Linux and IPv4, then add features that help explain connection quality.
 
-This is a roadmap for future implementation, not a claim that these features exist. The current project contains only a starter `main` function. All milestones below are pending.
+This is a roadmap for future implementation, not a claim that these features exist. The current prototype sends 10 serial IPv4 probes on Linux x86_64, gives each a one-second deadline, and validates replies. See [README.md](README.md) for current behavior and checks. All milestones below remain pending until their full acceptance conditions are verified.
 
 For step-by-step instructions covering milestones 1–2, see the [first-release implementation guide](docs/superpowers/plans/2026-10-11-pingr-first-release.md).
 
